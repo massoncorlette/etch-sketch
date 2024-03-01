@@ -9,8 +9,7 @@ body {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  background-image: url("images/90s.jpg");
-  
+  background-image: url("images/stars.jpg");
 }
 
 .header {
@@ -18,8 +17,6 @@ body {
   color: #ffffff; 
   text-shadow: 0 0 10px #c49102, 0 0 20px #ffffff, 0 0 30px #ffffff; 
 }
-
-
 
 .sketch-img {
   display: flex;
@@ -34,7 +31,20 @@ body {
   height: 380px;
   width: 530px;
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
 }
+
+.grid {
+  display:flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  }
+
+
 
 .footer {
   font-size: 24px;
