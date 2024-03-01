@@ -18,6 +18,15 @@ body {
   text-shadow: 0 0 10px #c49102, 0 0 20px #ffffff, 0 0 30px #ffffff; 
 }
 
+#button {
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .sketch-img {
   display: flex;
   flex: 1;
@@ -43,8 +52,6 @@ body {
   justify-content: space-around;
   background-color: whitesmoke;
   }
-
-
 
 .footer {
   font-size: 24px;
