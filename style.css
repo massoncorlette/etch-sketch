@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
-* {border: 1px Solid red}
+* {border: 0px Solid red}
 
 body {
   height: 120vh;
@@ -31,7 +31,6 @@ body {
   flex-direction: column;
   margin: 16px;
   gap: 80px;
-  
 }
 
 #size, #reset {
@@ -67,12 +66,18 @@ body {
   justify-content: space-around; 
 }
 
-.grid {
+.gridRows {
   display:flex;
   flex: 1;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.gridCells {
+  display: flex;
+  flex: 1;
   background-color: whitesmoke;
+  content: "";
 }
 
 .footer {
